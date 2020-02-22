@@ -1,10 +1,12 @@
 # Handmade Hero Visual Studio setup
 
 A fully-featured Visual Studio setup for Handmade Hero using CMake (No MSBuild and no solution file) 
+This is for people who have the source code but want to use Visual Studio instead of a text editor.
+Instructions for how to set-up the repo for building, are in the source code's folder in the readme.txt file.
+If you have linked your git-hub account to the original repo, you can also see them here:
+https://github.com/HandmadeHero/cpp
 
-After following the instructions here: https://github.com/HandmadeHero/cpp
-
-All you need are these 3 files:
+Once that's all set-up, all you need on top of that are these 3 files:
 
 - CMakeLists.txt
 - CMakeSettings.json
