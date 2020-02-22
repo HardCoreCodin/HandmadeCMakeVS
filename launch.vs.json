@@ -1,0 +1,57 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "win32_handmade.exe (D:\\Documents\\C\\handmade\\build\\win32_handmade.exe)",
+      "name": "Game",
+      "currentDir": "D:\\Documents\\C\\handmade\\handmade"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "hhaedit.exe (D:\\Documents\\C\\handmade\\build\\hhaedit.exe)",
+      "name": "AssetEditor"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "hhfont.exe (D:\\Documents\\C\\handmade\\build\\hhfont.exe)",
+      "name": "FontExtractor"
+    },
+    {
+      "type": "dll",
+      "exe": "",
+      "project": "CMakeLists.txt",
+      "projectTarget": "handmade.dll (D:\\Documents\\C\\handmade\\build\\handmade.dll)",
+      "name": "GameLib"
+    },
+    {
+      "type": "dll",
+      "exe": "",
+      "project": "CMakeLists.txt",
+      "projectTarget": "win32_handmade_opengl.dll (D:\\Documents\\C\\handmade\\build\\win32_handmade_opengl.dll)",
+      "name": "OpenGLRenderer"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "test_png.exe (D:\\Documents\\C\\handmade\\build\\test_png.exe)",
+      "name": "PNGParser"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "win32_renderer_test.exe (D:\\Documents\\C\\handmade\\build\\win32_renderer_test.exe)",
+      "name": "RenderTest"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "hhsphere.exe (D:\\Documents\\C\\handmade\\build\\hhsphere.exe)",
+      "name": "SamplingGenerator"
+    }
+  ]
+}
