@@ -25,28 +25,28 @@ In Casey's example it would be just w:\\
 
 Then, just open the folder itself in visual studio (2019 or above).<br>
 There are multiple ways of doing this:<br>
-1. Just right-click in an empty area within the folder in File Explorer and choode "Open in Visual Studio".
-2. Open a new Visual Studio instance, and in the startup window click on "Open a Local Folder", then choose the directory.
-3. In an already open Visual Studio instance just go to: "File > Open > Folder" then choose the directory.
+1. Just right-click in an empty area within the folder in File Explorer and choose "Open in Visual Studio".
+2. Open a new Visual Studio instance and in the startup window click on "Open a Local Folder" and choose the folder.
+3. In an already open Visual Studio instance just go to: "File > Open > Folder" then choose the folder.
 
 Wait a few seconds for Visual Studio to identify the files and generate a CMake cache and CMake targets from them.<br>
-Once it's done, you should already be able to run/debug any target.<br>
-You should be able to see all the targets in the solution explorer by clicking on "Switch View" and selecting "CMake Targets View".
+Once it's done you should already be able to run/debug any target.<br>
+You should then see all the targets in the solution explorer by clicking on "Switch View" and selecting "CMake Targets View".
 
 ![alt text](https://github.com/ArnonMarcus/HandmadeCMakeVS/blob/master/HandmadeVisualStudioTargets.png?raw=true)
 
-If you haven't built it already, you can just do a full build by either going to: "Build > Build All" <br>
+If you haven't built it already you can just do a full build by either going to: "Build > Build All" <br>
 or by right-clicking on the "HandmadeHero Project" in the solution explorer and selecting "Build All".
 
 ![alt text](https://github.com/ArnonMarcus/HandmadeCMakeVS/blob/master/HandmadeVisualStudioBuild.png?raw=true)
 
-You should then choose a Startup target, either by selecting "Game" from the "Select Startup Item" dropdown <br>
+You should then choose a Startup target by either selecting "Game" from the "Select Startup Item" dropdown <br>
 or by right-clicking the "Game" target in the solution explorer and choosing "Set As Startup Item".
 
-You can then launch the game by clicking on the startup button (which sould be set to "Game"). <br>
+You can then launch the game by clicking on the startup button (which should be set to "Game").<br>
 It launches in debug mode so you can already put break-points etc.
 
 To debug any other target just select it in the "Select Startup Item" drop-down and then click it. <br>
-Break points should work as us usal in any target.
+Break points should work as us usual in any target.
 
 nJoy :)
