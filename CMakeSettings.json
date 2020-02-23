@@ -7,16 +7,7 @@
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "buildRoot": "${projectDir}\\out\\build\\${name}",
       "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "",
-      "buildCommandArgs": "-v",
-      "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "CMAKE_BUILD_TYPE",
-          "value": "Debug",
-          "type": "STRING"
-        }
-      ]
+      "buildCommandArgs": "-v"
     }
   ]
 }

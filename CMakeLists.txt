@@ -2,6 +2,7 @@
 
 project(HandmadeHero)
 
+set(CMAKE_BUILD_TYPE RelWithDebInfo)
 set(HANDMADE_DIR ${CMAKE_CURRENT_LIST_DIR}/handmade/)
 set(SourceDir ${HANDMADE_DIR}code/)
 set(DataDir ${HANDMADE_DIR}data/)
